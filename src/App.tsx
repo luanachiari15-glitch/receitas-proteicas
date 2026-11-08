@@ -58,7 +58,7 @@ export default function App() {
       <PurchaseNotification />
 
       {/* Main Responsive Page Wrapper: fluid on mobile, up to max-w-6xl on desktop */}
-      <main className="w-full max-w-6xl mx-auto bg-[#faf8f4] min-h-screen shadow-2xl relative border-x border-stone-300/40 pb-16">
+      <main className="w-full max-w-6xl mx-auto bg-[#faf8f4] min-h-screen shadow-2xl relative border-x border-stone-300/40 pb-16 overflow-x-hidden">
         {/* 1. Hero Section (Clean headline with Gold Metallic POBRE PREMIUM) */}
         <HeroSection config={config} onCtaClick={handleScrollToOffer} />
 

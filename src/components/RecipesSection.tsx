@@ -45,6 +45,9 @@ export const RecipesSection: React.FC<Props> = ({ recipes, config, onCtaClick })
                     alt={recipe.title}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     loading="lazy"
+                    decoding="async"
+                    width={310}
+                    height={232}
                   />
                   {/* Floating Cost Tag on top of photo */}
                   <div className="absolute bottom-2.5 right-2.5 bg-black/80 backdrop-blur-xs text-white text-[11px] font-bold px-2.5 py-0.5 rounded-md shadow-sm">

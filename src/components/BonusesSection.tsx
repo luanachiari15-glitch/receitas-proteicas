@@ -31,6 +31,9 @@ export const BonusesSection: React.FC<Props> = ({ bonuses }) => {
                   alt={bonus.title}
                   className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300 mx-auto"
                   loading="lazy"
+                  decoding="async"
+                  width={220}
+                  height={280}
                 />
               </div>
 

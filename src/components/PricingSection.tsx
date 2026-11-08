@@ -37,9 +37,13 @@ export const PricingSection: React.FC<Props> = ({ config }) => {
               <div className="md:col-span-5 flex flex-col items-center">
                 <div className="w-full max-w-[280px] mx-auto mb-3">
                   <img
-                    src="/assets/aistudio/Mockup_de_Receitas_Proteicas_Econ_micas_2c2965a0.png"
+                    src="/assets/aistudio/mockup_hero_optimized.webp"
                     alt="Pacote Completo 150 Receitas Proteicas de Pobre Premium"
                     className="w-full h-auto object-contain drop-shadow-xl"
+                    loading="lazy"
+                    decoding="async"
+                    width={320}
+                    height={256}
                   />
                 </div>
                 <div className="text-center">

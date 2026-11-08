@@ -38,9 +38,13 @@ export const HeroSection: React.FC<Props> = ({ config, onCtaClick }) => {
             <div className="lg:hidden my-6 flex justify-center">
               <div className="relative w-full max-w-[340px] sm:max-w-[400px]">
                 <img
-                  src="/assets/aistudio/Mockup_de_Receitas_Proteicas_Econ_micas_2c2965a0.png"
+                  src="/assets/aistudio/mockup_hero_optimized.webp"
                   alt="Mockup Receitas Proteicas de Pobre Premium"
                   className="w-full h-auto object-contain drop-shadow-2xl"
+                  fetchPriority="high"
+                  decoding="async"
+                  width={400}
+                  height={320}
                 />
               </div>
             </div>
@@ -100,9 +104,13 @@ export const HeroSection: React.FC<Props> = ({ config, onCtaClick }) => {
               {/* Subtle ambient backdrop radial highlight */}
               <div className="absolute inset-0 bg-radial from-amber-200/40 via-emerald-100/20 to-transparent blur-3xl -z-10 transform scale-90" />
               <img
-                src="/assets/aistudio/Mockup_de_Receitas_Proteicas_Econ_micas_2c2965a0.png"
+                src="/assets/aistudio/mockup_hero_optimized.webp"
                 alt="Mockup Receitas Proteicas de Pobre Premium"
                 className="w-full h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500 cursor-pointer"
+                fetchPriority="high"
+                decoding="async"
+                width={460}
+                height={368}
                 onClick={onCtaClick}
               />
             </div>

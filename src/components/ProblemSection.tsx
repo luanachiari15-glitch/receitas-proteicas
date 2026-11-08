@@ -52,9 +52,13 @@ export const ProblemSection: React.FC<Props> = ({ config }) => {
           <div className="lg:col-span-6 flex justify-center">
             <div className="w-full max-w-lg lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-2 border-stone-200 bg-white group hover:shadow-3xl transition-all duration-300">
               <img
-                src="/assets/aistudio/Antes_e_Depois__Transforma__o_Saborosa_a2315f60.png"
+                src="/assets/aistudio/antes_depois_optimized.webp"
                 alt="Antes e Depois - Transformação Saborosa e Econômica"
                 className="w-full h-auto object-cover group-hover:scale-[1.015] transition-transform duration-500"
+                loading="lazy"
+                decoding="async"
+                width={600}
+                height={600}
               />
             </div>
           </div>
