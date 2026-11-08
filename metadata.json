@@ -1,0 +1,6 @@
+{
+  "name": "Receitas Proteicas de Pobre Premium - Página de Vendas",
+  "description": "Página de vendas responsiva e de alta conversão para o Receitas Proteicas de Pobre Premium, com editor de oferta integrado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
